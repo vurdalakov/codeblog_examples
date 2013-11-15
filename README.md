@@ -1,6 +1,6 @@
 # CodeBlog Examples
 
-Examples from by [CodeBlog](http://codeblog.vurdalakov.net)
+Examples from my [CodeBlog](http://codeblog.vurdalakov.net)
 
 This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/legalcode).
 
