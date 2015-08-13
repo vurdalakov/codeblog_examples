@@ -1,0 +1,25 @@
+<Configuration xmlns="http://schemas.vurdalakov.net/linqtest">
+  <UserSettings>
+    <UserSetting Name="UsePlugins" Value="True" />
+  </UserSettings>
+  <Plugins>
+    <Plugin Name="BackgroundWorker" Type="Background">
+      <Runtime>
+        <Implementation EntryPoint="BackgroundPlugin.Run" />
+      </Runtime>
+      <Files>
+        <File Name="BackgroundPlugin.dll"/>
+        <File Name="BackgroundPlugin.cfg"/>
+      </Files>
+    </Plugin>
+    <Plugin Name="UserInteraction" Type="UI">
+      <Runtime>
+        <Implementation EntryPoint="UIPlugin.Execute" />
+        <Files>
+          <File Name="UIPlugin.dll"/>
+          <File Name="UIPlugin.ini"/>
+        </Files>
+      </Runtime>
+    </Plugin>
+  </Plugins>
+</Configuration>

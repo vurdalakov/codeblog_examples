@@ -1,0 +1,9 @@
+<Configuration xmlns="http://schemas.vurdalakov.net/linqtest">
+  <Plugins>
+    <Plugin Name="Watchdog" Type="Background"/>
+    <Plugin Name="UpdateChecker" Type="Background"/>
+    <Plugin Name="MainForm" Type="UI"/>
+    <Plugin Name="OptionsDialog" Type="UI"/>
+    <Plugin Name="AboutDialog" Type="UI"/>
+  </Plugins>
+</Configuration>

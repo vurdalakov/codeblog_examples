@@ -1,0 +1,9 @@
+<Configuration>
+  <UserSettings>
+    <UserSetting Name="UsePlugins" Value="True" />
+  </UserSettings>
+  <Plugins>
+    <Plugin Name="BackgroundWorker" />
+    <Plugin Name="UserInteraction" />
+  </Plugins>
+</Configuration>
