@@ -6,11 +6,11 @@ This work is licensed under a [Creative Commons Attribution 3.0 Unported License
 
 ### ANSI C
 
-* Convert single CRs and LFs to CRLFs
+* Convert single CRs and LFs to CRLFs:
 [blog entry](http://codeblog.vurdalakov.net/2012/01/ansi-c-how-to-convert-single-cr-and-lf-to-crlf.html),
 [code example](https://github.com/vurdalakov/codeblog_examples/tree/master/ansi_c/crlf2crlf)
 
-* How to unpack .GZ archive with ZLIB library
+* How to unpack .GZ archive with ZLIB library:
 [blog entry](http://codeblog.vurdalakov.net/2012/01/ansi-c-how-to-unpack-gz-archive-with-zlib.html),
 [code example](https://github.com/vurdalakov/codeblog_examples/tree/master/ansi_c/gzunpack)
 
