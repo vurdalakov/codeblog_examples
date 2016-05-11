@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------
-# This software is part of the FreeCodeCollection project
-# http://code.google.com/p/freecodecollection/
+# This source code is an example from my CodeBlog:
+# http://codeblog.vurdalakov.net
 #
 # Copyright (c) 2011 Vurdalakov
 # http://www.vurdalakov.net
