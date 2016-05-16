@@ -37,8 +37,11 @@ namespace Vurdalakov
     {
         static void Main(string[] args)
         {
-//            StringCollection2IEnumerableString.StringCollection2List();
+#if false
+            StringCollection2IEnumerableString.StringCollection2List();
+#endif
 
+#if false
             String path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), @"Internet Explorer\iexplore.exe");
             Console.WriteLine("Long path:  '{0}'", path);
 
@@ -47,6 +50,11 @@ namespace Vurdalakov
             
             path = PathExtensions.GetLongPathName(path);
             Console.WriteLine("Long path:  '{0}'", path);
+#endif
+
+#if true
+            Console.WriteLine("{0} keyboard(s) are attached", Keyboard.GetKeyboardCount());
+#endif
         }
     }
 }
